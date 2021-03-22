@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Wikit",
+  "version": "1.0",
+  "description": "Search Wikipedia on the go!",
+  "background": {
+    "scripts": ["eventsPage.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs", "contextMenus"]
+}
